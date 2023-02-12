@@ -1,0 +1,250 @@
+/***************************************id-selector*****************************************/
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/***************************************class-selectors*****************************************/
+
+.font{
+   font-family: 'Trebuchet MS', sans-serif;
+   font-size: 3.5rem;  
+   line-height: 1.5;
+   font-weight: 900;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.price{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/**************************************** name-selectors *********************************/
+
+body{
+    font-family: 'Trebuchet MS';
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar{
+    width: .75em;
+    border-radius: 100vw;
+    height: 96;
+}
+
+::-webkit-scrollbar-track{
+    background: hsl(0, 0%, 100%);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(0, 0%, 60%);
+    border-radius: 100vw;
+    border: .25em solid hsl(0, 0%, 100%);
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    opacity: 1;
+    background-color: #ff4c68;
+}
+
+/***************************************** Navbar ****************************************/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Trebuchet MS';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 1;
+}
+
+/****************************************** Buttons ************************************/
+
+.db{
+    margin: 12% 6% 5% 0;
+}
+
+/***************************************** Title-Img **********************************/
+
+.title-img{
+    width: 75%;
+    transform: rotate(14deg);
+    position: absolute;
+    right: 10%;
+}
+
+/***************************************** Features ************************************/
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+/***************************************** Icons *************************************/
+
+.icon{
+    color: #ff6078;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff1e00;
+}
+
+.pen{
+    width: 15%;
+}
+
+/* Testimonial-Section */
+
+.testimonial-text{
+    font-size: 2.3rem;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff6078;
+    color: white;
+    font-weight: bolder;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff6078;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 6%;
+    margin: -3px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing-Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.text-muted{
+    color: #6c757d
+}
+
+.pricing-column{
+    padding: 3% 3.5%;
+}
+
+.pbtn{
+    width: 230px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* call-to-action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 6% 25%;
+    color: #fff;
+}
+
+.cta-heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* ************** */
+
+
+@media (max-width: 1028px) {
+
+    .pbtn{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .testimonial-text{
+        font-size: small;
+    }
+    
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        display: none;
+    }
+}
+
+/* footer */
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
